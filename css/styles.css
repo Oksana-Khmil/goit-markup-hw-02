@@ -1,0 +1,292 @@
+/*Шрифт всего текста - Roboto*/
+/*Шрифт логотипа WebStudio - Raleway*/
+/*Цвет заголовка блока героя белый- #FFFFFF*/
+/*Основной цвет заголовков документов - #212121*/
+/* Цвет активных кнопок и ссылок - #2196F3*/
+/*Цвет текста абзацев - #757575*/
+/*цвет бека Наша команда и неактивных кнопок Наши проекты - #F5F4FA*/
+/* цвет фона подвала background: #2F303A;*/
+/*font-style: normal;*/
+
+:root {
+  /* --main-font: 'Roboto', sans-serif; */
+  --secondary-font: 'Raleway', sans-serif;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --main-color: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+/*========================STUDIO=======================*/
+
+/*========================HEADER=======================*/
+.webstudio {
+  color: #000000;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: var(--accent-color);
+}
+.menu .curent {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/*========================END==HEADER=======================*/
+
+/*===========================HERO===================*/
+.hero {
+  background: #2f303a;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.order-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background: #188ce8;
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+/*=======================END=HERO===================*/
+
+/*=====Advantages (advant- никогда не писать adv-title!!!)=====*/
+
+.advant-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+.advant-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*====================END Advantages=========================*/
+
+/*==================ACTIVITIES===========================*/
+.activ-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.activ-item {
+  display: inline-block;
+}
+/*===============END=ACTIVITIES===========================*/
+
+/*===================TEAM======================================*/
+.team {
+  background: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.team-item {
+  display: inline-block;
+  text-align: center;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.team-member-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*===================END==TEAM=================================*/
+
+/*==================FOOTER=================*/
+.basement {
+  background: #2f303a;
+}
+.basement-webstudio {
+  color: var(--primary-white-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.basement-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-white-color);
+}
+
+.basement-tel,
+.basement-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+/*================END==FOOTER=================*/
+
+/*=====================END===STUDIO======*/
+
+/*=============PORTFOLIO=============*/
+
+/*=============HEADER webstudio=============*/
+.shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*============END=HEADER webstudio=============*/
+
+/*=============FILTERS=============*/
+
+.filter-item {
+  display: inline-block;
+}
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+/*===========END==FILTERS=============*/
+
+/*=============PROJECTS=============*/
+
+.project-item {
+  background: var(--primary-white-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.project-filter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+/*===========END==PROJECTS=============*/
+
+/*==========END===PORTFOLIO=============*/
