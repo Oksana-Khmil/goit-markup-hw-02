@@ -9,7 +9,7 @@
 /*font-style: normal;*/
 
 :root {
-  /* --main-font: 'Roboto', sans-serif; */
+  --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -18,8 +18,8 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   color: var(--main-color);
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -39,8 +39,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  letter-spacing: 0.03em;
 }
 
 .web {
@@ -127,7 +125,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--title-text-color);
@@ -136,7 +133,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /*====================END Advantages=========================*/
 
@@ -146,7 +142,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--title-text-color);
 }
@@ -166,7 +161,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--title-text-color);
 }
@@ -181,7 +175,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--title-text-color);
 }
@@ -191,7 +184,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /*===================END==TEAM=================================*/
 
@@ -205,26 +197,39 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
-.basement-map {
+.basement-map-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--primary-white-color);
 }
 
-.basement-tel,
-.basement-mail {
+.basement-map-link:hover,
+.basement-map-link:focus {
+  color: var(--accent-color);
+}
+
+.basement-tel-link,
+.basement-mail-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
+
+.basement-tel-link:hover,
+.basement-tel-link:focus {
+  color: var(--accent-color);
+}
+
+.basement-mail-link:hover,
+.basement-mail-link:focus {
+  color: var(--accent-color);
+}
+
 /*================END==FOOTER=================*/
 
 /*=====================END===STUDIO======*/
@@ -248,7 +253,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--title-text-color);
   background: #f5f4fa;
@@ -283,8 +287,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
-
   color: var(--main-color);
 }
 /*===========END==PROJECTS=============*/
